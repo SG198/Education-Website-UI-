@@ -1,9 +1,15 @@
 import React from 'react'
+import About from './About'
+import Contact from './Contact'
+import Course from './Course'
+//import Navbar from './Navbar'
 import './style.css'
 const Home = () => {
     return (
         <>
+        {/* <Navbar/> */}
         <section id="home">
+           
         <div className="container">
             <div className="leftContainer">
                 <h4 className="headText">the right choice</h4>
@@ -22,6 +28,9 @@ const Home = () => {
             </div>
         </div>
     </section>  
+    <About/>
+    <Course/>
+    <Contact/>
         </>
     )
 }

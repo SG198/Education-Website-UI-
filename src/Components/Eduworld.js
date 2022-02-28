@@ -15,7 +15,7 @@ const uniqueList = [
 
 const Eduworld = () => {
     const [eduList, seteduList] = useState(Edu)
-    const [eduData, seteduData] = useState(uniqueList)
+    const [eduData] = useState(uniqueList)
 
 
     const filterItem = (b_name) => {

@@ -1,4 +1,6 @@
 import React,{useState} from 'react'
+import Footer from './Footer';
+//import Navbar from './Navbar';
 import './style.css'
 const Contact = () => {
     const [user, setUser] = useState({
@@ -44,6 +46,7 @@ const Contact = () => {
     return (
        
         <>
+        {/* <Navbar/> */}
          <section className="contact" id="contact">
          <div className="title">
             <h2 className="titletext">Contact <span>U</span>s</h2>
@@ -66,6 +69,7 @@ const Contact = () => {
         </div>
               </form> 
               </section> 
+              <Footer/>
         </>
     )
 }

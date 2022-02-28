@@ -1,10 +1,11 @@
 import React from 'react'
+//import Navbar from './Navbar';
 
 const Courses = ({edulist}) => {
     return (
        
     <>
-     
+     {/* <Navbar/> */}
         <div className="boxModel">
 
             {/* Box */}

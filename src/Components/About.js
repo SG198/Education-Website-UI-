@@ -1,4 +1,5 @@
 import React from 'react'
+//import Navbar from './Navbar';
 import './style.css'
 
 
@@ -17,6 +18,7 @@ const About = () => {
 
     return (
         <>
+        {/* <Navbar/> */}
             <section id="about">
                 <div className="organisation">
                     {data.map((currElem) => {

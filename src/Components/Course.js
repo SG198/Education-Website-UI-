@@ -1,4 +1,5 @@
 import React from 'react'
+import Eduworld from './Eduworld'
 import './style.css'
 const Course = () => {
   const list=[
@@ -47,6 +48,7 @@ const Course = () => {
         </div>
               
               </section>  
+              <Eduworld/>
         </>
     )
 }
